@@ -115,7 +115,7 @@ function conta(){
 
      for(let final=0; final<3; final++){              //laco para mostrar o resultado final
 
-      alert(`Restaurante: ${restaurants[final]} \nValor: ${values[final]}\nGorjeta ${gorjetas[final].toFixed(2)}\nValor final ${valorTotal[final].toFixed(2)}`);
+      alert(`Restaurante: ${restaurants[final]} \nValor (R$): ${values[final]}\nGorjeta (R$): ${gorjetas[final].toFixed(2)}\nValor final (R$): ${valorTotal[final].toFixed(2)}`);
 
      }
    
