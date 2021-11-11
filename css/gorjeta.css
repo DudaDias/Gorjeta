@@ -7,21 +7,22 @@ body {
     margin: 0px;
     width: 100vw;
     height: 100vh;
-    background-image: url('../img/nubank.png');
+    background-image: url('https://image.freepik.com/icones-gratis/garcom-serve-uma-bebida-em-uma-bandeja_318-29153.jpg');
     display: flex;
-    backdrop-filter: brightness(50%);  
+    backdrop-filter: brightness(30%);  
     background-color: white;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 .box {
 
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: 500px;
     background: #fff;
     border-radius: 10px;
+    margin-left: 40px;
 }
 
 h1 {
